@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+  }
+  
+  body{
+    background-color: burlywood;
+  }
+  
+  h2{
+    margin-top: 16px;
+    font-size: 41px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+  
+  .logo-text img{
+    height: 61px;
+    width: 160px;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -126px;
+    border-radius: 14px;
+  }
+  
+  .logo-text a,
+  .cta {
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cta{
+    padding: 9px 25px;
+    margin-right: -126px;
+    background-color: rgb(149, 88, 249);
+    border: none;
+    border-radius: 21px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  
+  }
+  
+  .cta:hover{
+    background-color: rgb(0, 60, 255);
+  }
+  
+  .cards{
+    display: table;
+  }
+  
+  .card{
+    font-family: "candara", sans-serif;
+    width: 340px;
+    overflow: hidden;
+    background-color: aliceblue;
+    box-shadow: 0px 10px 15px 0px coral;
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+  }
+  
+  .profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid rebeccapurple ;
+    transition-duration: 0.4s;
+    transition-property: transform;
+  }
+  
+  .profile-image img:hover{
+    transform: scale(1.1);
+  }
+  
+  .card-content h3,
+  .card-content h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: black;
+    box-shadow: 0px 10px 15px 0px rgba(210, 142, 142, 0.5);
+  }
